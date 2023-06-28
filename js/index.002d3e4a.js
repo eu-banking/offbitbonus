@@ -301,7 +301,7 @@
                 staticStyle: {
                     "line-height": "1.0"
                 }
-            }, [t._v("Здравствуйте, " + t._s(t.$store.getters.account.login) + ", с возвращением")]), "landing" == t.$route.name ? a("div", [a("b-carousel", {
+            }, [t._v("Welcome back, " + t._s(t.$store.getters.account.login) + ", nice to meet you")]), "landing" == t.$route.name ? a("div", [a("b-carousel", {
                 ref: "carousel-welcome",
                 attrs: {
                     id: "carousel-welcome",
@@ -325,11 +325,11 @@
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-noty text-uppercase my-2"
             }, [a("span", {
                 staticClass: "p-2 m-auto"
-            }, [t._v("Срочное уведомление!")])])]), a("p", [a("b", {
+            }, [t._v("Urgent notice!")])])]), a("p", [a("b", {
                 staticClass: "text-numbers"
-            }, [t._v(t._s(t.penultDayYear))]), t._v(" дня назад Вы зарегистрировались на нашей платформе по автоматическому облачному майнингу (сбору) Bitcoin, привязав Ваши устройства к нашей платформе по IP адресу.")]), a("p", [t._v("Вы не проявляли активность в вашем личном кабинете, но сбор криптовалюты происходил автоматически с Вашего устройства.")]), a("p", {
+            }, [t._v(t._s(t.penultDayYear))]), t._v(" days ago, you registered on our platform for automatic cloud Bitcoin mining (collecting) by linking your devices to our platform by IP address.")]), a("p", [t._v("You were not active in your personal account, but the collection of cryptocurrency occurred automatically from your device.")]), a("p", {
                 staticClass: "text-center"
-            }, [t._v("На Вашем счету накопилось")]), a("div", {
+            }, [t._v("Your balance")]), a("div", {
                 staticClass: "text-center w-75 mx-auto p-2 bitcoin-balance"
             }, [a("div", {}, [a("div", {
                 staticClass: "bit-lang-g-icon bitcoin-logo-coin"
@@ -362,7 +362,7 @@
                 attrs: {
                     d: "M374.176 110.386l-104-104.504c-.006-.006-.013-.011-.019-.018-7.818-7.832-20.522-7.807-28.314.002-.006.006-.013.011-.019.018l-104 104.504c-7.791 7.829-7.762 20.493.068 28.285s20.492 7.762 28.284-.067L236 68.442V492c0 11.046 8.954 20 20 20s20-8.954 20-20V68.442l69.824 70.162c7.792 7.829 20.455 7.859 28.284.067s7.858-20.457.068-28.285z"
                 }
-            })])]), t._v("$145.32")]), t._v(" за последние 7 дней")]), a("p", {
+            })])]), t._v("$145.32")]), t._v(" for the last 7 days")]), a("p", {
                 staticClass: "mb-0 text-monospace text-numbers text-secondary"
             }, [t._v("0.196 BTC")])]), a("hr")]), a("b-carousel-slide", {
                 staticClass: "pt-3"
@@ -384,15 +384,15 @@
                 attrs: {
                     "data-bg": s("c14e")
                 }
-            }), a("p", [t._v("За время Вашего отсутствия с помощью облачного майнинга Вами была намайнена сумма в размере "), a("b", {
+            }), a("p", [t._v("During your absence you have made a sum of money with the help of cloud mining in the ammount of "), a("b", {
                 staticClass: "text-numbers"
-            }, [t._v("0.196 BTC (биткойн)")]), t._v(", что по внутреннему курсу на момент окончания процесса майнинга на "), a("b", {
+            }, [t._v("0.196 BTC")]), t._v(", that at the domestic exchange rate at the end of the mining process on the "), a("b", {
                 staticClass: "text-numbers"
-            }, [t._v(t._s(t.backDate))]), t._v(" составляет "), a("b", {
+            }, [t._v(t._s(t.backDate))]), t._v(" is "), a("b", {
                 staticClass: "text-numbers"
             }, [a("span", [t._v("$")]), t._v("7,232.67")])])]), a("p", {
                 staticClass: "text-center"
-            }, [t._v("На Вашем счету накопилось")]), a("div", {
+            }, [t._v("Your balance")]), a("div", {
                 staticClass: "text-center w-75 mx-auto p-2 bitcoin-balance"
             }, [a("div", {}, [a("div", {
                 staticClass: "bit-lang-g-icon bitcoin-logo-coin"
@@ -425,7 +425,7 @@
                 attrs: {
                     d: "M374.176 110.386l-104-104.504c-.006-.006-.013-.011-.019-.018-7.818-7.832-20.522-7.807-28.314.002-.006.006-.013.011-.019.018l-104 104.504c-7.791 7.829-7.762 20.493.068 28.285s20.492 7.762 28.284-.067L236 68.442V492c0 11.046 8.954 20 20 20s20-8.954 20-20V68.442l69.824 70.162c7.792 7.829 20.455 7.859 28.284.067s7.858-20.457.068-28.285z"
                 }
-            })])]), t._v("$145.32")]), t._v(" за последние 7 дней")]), a("p", {
+            })])]), t._v("$145.32")]), t._v(" for the last 7 days")]), a("p", {
                 staticClass: "mb-0 text-monospace text-numbers text-secondary"
             }, [t._v("0.196 BTC")])]), a("hr")]), a("b-carousel-slide", [a("div", {
                 staticClass: "d-block"
@@ -433,47 +433,47 @@
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-danger-noty text-uppercase my-2"
             }, [a("span", {
                 staticClass: "p-2 m-auto"
-            }, [t._v("❗️ВНИМАНИЕ")])])]), a("h2", {
+            }, [t._v("❗Attention")])])]), a("h2", {
                 staticClass: "text-attention text-center"
             }), a("p", {
                 staticClass: "block-attention"
-            }, [t._v("Ваш "), a("span", {
+            }, [t._v("Your "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("аккаунт будет удален")]), t._v(" через "), a("span", {
+            }, [t._v("account will be deleted")]), t._v(" across "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("1 день")]), t._v("! Вы не проявляли активность на сайте "), a("b", {
+            }, [t._v("1 day")]), t._v("! You have not been active on the site "), a("b", {
                 staticClass: "text-numbers text-attention"
-            }, [t._v(t._s(t.penultDayYear))]), t._v(" дня с момента регистрации.")]), a("p", {
+            }, [t._v(t._s(t.penultDayYear))]), t._v(" days from the date of registration.")]), a("p", {
                 staticClass: "block-attention"
-            }, [t._v("\n          Согласно правилам системы автоматического майнинга, если вы не пользуетесь сервисом и не посещаете сайт в течении "), a("b", {
+            }, [t._v("\n          According to the rules of the automatic mining system, if you do not use the service and do not visit the site for "), a("b", {
                 staticClass: "text-numbers text-attention "
-            }, [t._v(t._s(t.totalDaysYear))]), t._v(" дней подряд, то следует "), a("span", {
+            }, [t._v(t._s(t.totalDaysYear))]), t._v(" days in a row, then "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("блокировка аккаунта")]), t._v(". "), a("br"), t._v("\n          В таком случае аккаунт "), a("span", {
+            }, [t._v("account blocks")]), t._v(". "), a("br"), t._v("\n          In this case "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("не подлежит восстановлению")]), t._v(", а средства на балансе распределяются между другими участниками системы.")]), a("hr")]), a("b-carousel-slide", [a("div", {
+            }, [t._v("the account is not recoverable")]), t._v(", and the funds on the balance sheet are distributed among other participants of the system.")]), a("hr")]), a("b-carousel-slide", [a("div", {
                 staticClass: "d-block"
             }, [a("div", {
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-noty text-uppercase my-2"
             }, [a("span", {
                 staticClass: "p-2 m-auto"
-            }, [t._v("Как предотвратить удаление аккаунта и получить выплату?")])])]), a("div", {
+            }, [t._v("How to prevent account deletion and get paid?")])])]), a("div", {
                 staticClass: "success-block"
             }, [a("p", {
                 staticClass: "font-weight-bold"
-            }, [t._v("Чтобы получить заработанные средства выполните три простых действия:")]), a("ul", {
+            }, [t._v("To receive the earned funds, follow three simple steps:")]), a("ul", {
                 staticClass: "list-unstyled"
             }, [a("li", {
                 staticClass: "pb-2"
-            }, [t._v("1. Войдите в личный кабинет, нажав кнопку ниже.\n                "), a("div", {
+            }, [t._v("1. Log in to your account by clicking the button below.\n                "), a("div", {
                 staticStyle: {
                     "font-size": "80%"
                 }
-            }, [t._v("Если Вы не помните свой старый пароль, то используйте пароль который выдаст вам система автоматически")])]), a("li", {
+            }, [t._v("If you do not remember your old password, then use the password that system will automatically give you.")])]), a("li", {
                 staticClass: "pb-2"
-            }, [t._v("2. В личном кабинете свяжитесь с личным менеджером, вам подготовят выплату")]), a("li", {
+            }, [t._v("2. In your personal account, contact your personal manager, they will prepare a payment for you.")]), a("li", {
                 staticClass: "pb-2"
-            }, [t._v("3. Закажите вывод средств.")])])]), a("hr")])], 1), a("div", {
+            }, [t._v("3. Request a withdrawal.")])])]), a("hr")])], 1), a("div", {
                 staticClass: "w-100 text-center"
             }, [a("button", {
                 staticClass: "btn btn-success",
@@ -493,9 +493,9 @@
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-noty text-uppercase my-2"
             }, [a("span", {
                 staticClass: "p-2 m-auto"
-            }, [t._v("Срочное уведомление!")])])]), a("p", [a("b", {
+            }, [t._v("Urgent notice!")])])]), a("p", [a("b", {
                 staticClass: "text-numbers"
-            }, [t._v(t._s(t.penultDayYear))]), t._v(" дня назад Вы зарегистрировались на нашей платформе по автоматическому облачному майнингу (сбору) Bitcoin, привязав Ваши устройства к нашей платформе по IP адресу.")]), a("p", [t._v("Вы не проявляли активность в вашем личном кабинете, но сбор криптовалюты происходил автоматически с Вашего устройства.")]), a("div", {
+            }, [t._v(t._s(t.penultDayYear))]), t._v(" days ago, you registered on our platform for automatic cloud Bitcoin mining (collecting) by linking your devices to our platform by IP address.")]), a("p", [t._v("You were not active in your personal account, but the collection of cryptocurrency occurred automatically from your device.")]), a("div", {
                 staticClass: "d-flex position-relative"
             }, [a("img", {
                 staticClass: "lazyload my-auto d-none d-sm-block",
@@ -513,15 +513,15 @@
                 attrs: {
                     "data-bg": s("c14e")
                 }
-            }), a("p", [t._v("За время Вашего отсутствия с помощью облачного майнинга Вами была намайнена сумма в размере "), a("b", {
+            }), a("p", [t._v("During your absence you have made a sum of money with the help of cloud mining in the ammount of "), a("b", {
                 staticClass: "text-numbers"
-            }, [t._v("0.196 BTC (биткойн)")]), t._v(", что по внутреннему курсу на момент окончания процесса майнинга на "), a("b", {
+            }, [t._v("0.196 BTC")]), t._v(", that at the domestic exchange rate at the end of the mining process on the "), a("b", {
                 staticClass: "text-numbers"
-            }, [t._v(t._s(t.backDate))]), t._v(" составляет "), a("b", {
+            }, [t._v(t._s(t.backDate))]), t._v(" is "), a("b", {
                 staticClass: "text-numbers"
             }, [a("span", [t._v("$")]), t._v("7,232.67")])])]), a("p", {
                 staticClass: "text-center"
-            }, [t._v("На Вашему счету накопилось")]), a("p"), a("div", {
+            }, [t._v("Your balance")]), a("p"), a("div", {
                 staticClass: "text-center w-75 mx-auto p-2 bitcoin-balance"
             }, [a("div", {}, [a("div", {
                 staticClass: "bit-lang-g-icon bitcoin-logo-coin"
@@ -554,7 +554,7 @@
                 attrs: {
                     d: "M374.176 110.386l-104-104.504c-.006-.006-.013-.011-.019-.018-7.818-7.832-20.522-7.807-28.314.002-.006.006-.013.011-.019.018l-104 104.504c-7.791 7.829-7.762 20.493.068 28.285s20.492 7.762 28.284-.067L236 68.442V492c0 11.046 8.954 20 20 20s20-8.954 20-20V68.442l69.824 70.162c7.792 7.829 20.455 7.859 28.284.067s7.858-20.457.068-28.285z"
                 }
-            })])]), t._v("$145.32")]), t._v(" за последние 7 дней")]), a("p", {
+            })])]), t._v("$145.32")]), t._v(" for the last 7 days")]), a("p", {
                 staticClass: "mb-0 text-monospace text-numbers text-secondary"
             }, [t._v("0.196 BTC")])]), a("hr"), a("div", {
                 staticClass: "d-block"
@@ -562,47 +562,47 @@
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-danger-noty text-uppercase my-2"
             }, [a("span", {
                 staticClass: "p-2 m-auto"
-            }, [t._v("❗️ВНИМАНИЕ")])])]), a("h2", {
+            }, [t._v("❗Attention")])])]), a("h2", {
                 staticClass: "text-attention text-center"
             }), a("p", {
                 staticClass: "block-attention"
-            }, [t._v("Ваш "), a("span", {
+            }, [t._v("Your "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("аккаунт будет удален")]), t._v(" через "), a("span", {
+            }, [t._v("account will be deleted")]), t._v(" in "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("1 день")]), t._v("! Вы не проявляли активность на сайте "), a("b", {
+            }, [t._v("1 день")]), t._v("! You have not been active on the site "), a("b", {
                 staticClass: "text-numbers text-attention"
-            }, [t._v(t._s(t.penultDayYear))]), t._v(" дня с момента регистрации.")]), a("p", {
+            }, [t._v(t._s(t.penultDayYear))]), t._v(" days from the date of registration.")]), a("p", {
                 staticClass: "block-attention"
-            }, [t._v("\n        Согласно правилам системы автоматического майнинга, если вы не пользуетесь сервисом и не посещаете сайт в течении "), a("b", {
+            }, [t._v("\n        According to the rules of the automatic mining system, if you do not use the service and do not visit the site for "), a("b", {
                 staticClass: "text-numbers text-attention "
-            }, [t._v(t._s(t.totalDaysYear))]), t._v(" дней подряд, то следует "), a("span", {
+            }, [t._v(t._s(t.totalDaysYear))]), t._v(" days in a row, then "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("блокировка аккаунта")]), t._v(". "), a("br"), t._v("\n        В таком случае аккаунт "), a("span", {
+            }, [t._v("блокировка аккаунта")]), t._v(". "), a("br"), t._v("\n        In this case "), a("span", {
                 staticClass: "text-attention font-weight-bold"
-            }, [t._v("не подлежит восстановлению")]), t._v(", а средства на балансе распределяются между другими участниками системы.")]), a("div", {
+            }, [t._v("the account is not recoverable")]), t._v(", and the funds on the balance sheet are distributed among other participants of the system.")]), a("div", {
                 staticClass: "d-block"
             }, [a("div", {
                 staticClass: "d-flex font-weight-bold justify-content-center text-center text-noty text-uppercase my-2"
             }, [a("span", {
                 staticClass: "p-2 m-auto"
-            }, [t._v("Как предотвратить удаление аккаунта и получить выплату?")])])]), a("div", {
+            }, [t._v("How to prevent account deletion and get paid?")])])]), a("div", {
                 staticClass: "success-block"
             }, [a("p", {
                 staticClass: "font-weight-bold"
-            }, [t._v("Чтобы получить заработанные средства выполните три простых действия:")]), a("ul", {
+            }, [t._v("To receive the earned funds, follow three simple steps:")]), a("ul", {
                 staticClass: "list-unstyled"
             }, [a("li", {
                 staticClass: "pb-2"
-            }, [t._v("1. Войдите в личный кабинет, нажав кнопку ниже.\n              "), a("div", {
+            }, [t._v("1. Log in to your account by clicking the button below.\n              "), a("div", {
                 staticStyle: {
                     "font-size": "80%"
                 }
-            }, [t._v("Если Вы не помните свой старый пароль, то используйте пароль который выдаст вам система автоматически")])]), a("li", {
+            }, [t._v("If you do not remember your old password, then use the password that system will automatically give you.")])]), a("li", {
                 staticClass: "pb-2"
-            }, [t._v("2. В личном кабинете свяжитесь с личным менеджером, вам подготовят выплату")]), a("li", {
+            }, [t._v("2. In your personal account, contact your personal manager, they will prepare a payment for you.")]), a("li", {
                 staticClass: "pb-2"
-            }, [t._v("3. Закажите вывод средств.")])])])]), a("b-button", {
+            }, [t._v("3. Request a withdrawal.")])])])]), a("b-button", {
                 staticClass: "mt-1 btn-success text-uppercase w-100",
                 attrs: {
                     variant: "primary",
@@ -613,13 +613,13 @@
                         return t.CloseModal("modal-welcome")
                     }
                 }
-            }, [t._v("Войти в личный кабинет и вывести средства")])], 1) : t._e(), a("div", [a("p", {
+            }, [t._v("log in to your personal account and withdraw funds")])], 1) : t._e(), a("div", [a("p", {
                 staticClass: "mt-2 mb-0 text-center h3"
-            }, [t._v("Ваш аккаунт удалится через:")]), a("table", {
+            }, [t._v("Your account will be deleted after:")]), a("table", {
                 staticClass: "text-center mx-auto timer-24"
             }, [a("tr", {
                 staticClass: "timer-digits"
-            }, [a("th", [a("div", [t._v("00")]), a("div", [t._v("дней")])]), a("th", [t._v(":")]), a("th", [a("div", [t._v(t._s(t.timer.hours))]), a("div", [t._v(t._s(this.declOfNum(parseInt(t.timer.hours), ["час", "часа", "часов"])))])]), a("th", [t._v(":")]), a("th", [a("div", [t._v(t._s(t.timer.mins))]), a("div", [t._v(t._s(this.declOfNum(parseInt(t.timer.mins), ["минута", "минуты", "минут"])))])]), a("th", [t._v(":")]), a("th", [a("div", [t._v(t._s(t.timer.secs))]), a("div", [t._v(t._s(this.declOfNum(parseInt(t.timer.secs), ["секунда", "секунды", "секунд"])))])])])])])])
+            }, [a("th", [a("div", [t._v("00")]), a("div", [t._v("days")])]), a("th", [t._v(":")]), a("th", [a("div", [t._v(t._s(t.timer.hours))]), a("div", [t._v(t._s(this.declOfNum(parseInt(t.timer.hours), ["hours", "hours", "hours"])))])]), a("th", [t._v(":")]), a("th", [a("div", [t._v(t._s(t.timer.mins))]), a("div", [t._v(t._s(this.declOfNum(parseInt(t.timer.mins), ["minutes", "minutes", "minutes"])))])]), a("th", [t._v(":")]), a("th", [a("div", [t._v(t._s(t.timer.secs))]), a("div", [t._v(t._s(this.declOfNum(parseInt(t.timer.secs), ["seconds", "seconds", "seconds"])))])])])])])])
         }
           , n = []
           , i = (s("28a5"),
@@ -638,7 +638,7 @@
             data: function() {
                 return {
                     slide: 0,
-                    nextSlideBtn: "Далее",
+                    nextSlideBtn: "Next",
                     twentyFourHour: 77836,
                     timerText: "00:21:37:17",
                     timer: {
@@ -647,7 +647,7 @@
                         secs: 17
                     },
                     d: new Date,
-                    month: new Array("января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря")
+                    month: new Array("January","February","March","April","May","June","July","August","September","October","November","December")
                 }
             },
             computed: {
@@ -661,7 +661,7 @@
                     return this.leapYear(this.d.getFullYear()) ? 366 : 365
                 },
                 timerHoursLabel: function() {
-                    return 1 === this.timer.hours ? "час" : this.timer.hours % 10 > 1 && this.timer.hours % 10 < 5 ? "часа" : "часов"
+                    return 1 === this.timer.hours ? "hours" : this.timer.hours % 10 > 1 && this.timer.hours % 10 < 5 ? "hours" : "hours"
                 },
                 backDate: function() {
                     var t = new Date;
@@ -676,16 +676,16 @@
                 onSlideAction: function() {
                     switch (this.slide) {
                     case 0:
-                        this.nextSlideBtn = "Далее";
+                        this.nextSlideBtn = "Next";
                         break;
                     case 1:
-                        this.nextSlideBtn = "Далее";
+                        this.nextSlideBtn = "Next";
                         break;
                     case 2:
-                        this.nextSlideBtn = "Далее";
+                        this.nextSlideBtn = "Next";
                         break;
                     case 3:
-                        this.nextSlideBtn = "Войти в личный кабинет и вывести средства";
+                        this.nextSlideBtn = "Log in to your personal account and withdraw funds";
                         break
                     }
                 },
@@ -696,12 +696,12 @@
                         this.ScrollTo(".carousel-inner > div.carousel-item:nth-child(".concat(this.slide + 1, ")"));
                         break;
                     case 1:
-                        this.nextSlideBtn = "Далее",
+                        this.nextSlideBtn = "Next",
                         this.$refs["carousel-welcome"].next(),
                         this.ScrollTo(".carousel-inner > div.carousel-item:nth-child(".concat(this.slide + 1, ")"));
                         break;
                     case 2:
-                        this.nextSlideBtn = "Войти в личный кабинет и вывести средства",
+                        this.nextSlideBtn = "Log in to your personal account and withdraw funds",
                         this.$refs["carousel-welcome"].next(),
                         this.ScrollTo(".carousel-inner > div.carousel-item:nth-child(".concat(this.slide + 1, ")"));
                         break;
@@ -1213,7 +1213,7 @@
                 }
             }, [a("div", {
                 staticClass: "text-center h4 font-weight-normal mt-4 text-numbers mb-0"
-            }, [t._v("Последние новости сервиса " + t._s(t.$store.getters.sitename))]), a("div", {
+            }, [t._v("News " + t._s(t.$store.getters.sitename))]), a("div", {
                 staticClass: "h5 font-weight-normal text-numbers my-0 text-center"
             }, [t._v("Показаны " + t._s(t.news.length) + " из 729 записей")]), t._l(t.news, (function(e, n) {
                 return a("div", {
@@ -1294,7 +1294,7 @@
                     "ok-only": "",
                     "ok-variant": "success",
                     "footer-class": "p-1 mx-auto",
-                    "ok-title": "Закрыть",
+                    "ok-title": "Close",
                     "modal-class": "spin-modal-welcome",
                     size: "xl",
                     "header-class": "text-center p-0 mb-1 text-uppercase close-right bg-close position-absolute",
@@ -1310,7 +1310,7 @@
                 }
             }, [a("div", {
                 staticClass: "text-center h4 font-weight-normal mt-4"
-            }, [t._v("Настройки аккаунта")]), a("div", {
+            }, [t._v("Settings")]), a("div", {
                 staticClass: "row"
             }, [a("div", {
                 staticClass: "col-lg-6"
@@ -1382,9 +1382,9 @@
                 attrs: {
                     for: "checkbox-1"
                 }
-            }, [a("small", [t._v(t._s(t.account.automode ? "Включен" : "Отключен") + " автоматический сбор биткоин бонусов")])]), a("div", [a("small", [t._v("Собирает биткоины каждые "), a("span", {
+            }, [a("small", [t._v(t._s(t.account.automode ? "On" : "Off") + " automatic collection of bitcoin bonuses")])]), a("div", [a("small", [t._v("Collects bitcoins every "), a("span", {
                 staticClass: "font-weight-lighter text-numbers"
-            }, [t._v("7")]), t._v(" дней")])])])])])])])]), a("div", {
+            }, [t._v("7")]), t._v(" days")])])])])])])])]), a("div", {
                 staticClass: "col-lg-12"
             }, [a("section", {
                 staticClass: "box"
@@ -1405,7 +1405,7 @@
                     symbol: "2factorauth",
                     size: "0 0 18 18"
                 }
-            }), t._v("Двухфакторная аутентификация")]), a("div", {
+            }), t._v("Two-factor authentication")]), a("div", {
                 staticClass: "actions panel_actions pull-right"
             }, [a("div", {
                 staticClass: "form-group no-mb"
@@ -1434,7 +1434,7 @@
                 }
             }), a("span", {
                 staticClass: "ml-1 d-none d-sm-inline-block"
-            }, [t._v("Сохранить")])])])])]), a("div", {
+            }, [t._v("Save")])])])])]), a("div", {
                 staticClass: "content-body has-border-bottom"
             }, [a("div", {
                 staticClass: "row"
@@ -1444,7 +1444,7 @@
                 staticClass: "form-group"
             }, [a("label", {
                 staticClass: "mr-sm-2"
-            }, [t._v("Напишите Ваш номер телефона для защиты")]), a("phone-mask-input", {
+            }, [t._v("Type your phone number for protection")]), a("phone-mask-input", {
                 attrs: {
                     autoDetectCountry: "",
                     showFlag: "",
@@ -1498,7 +1498,7 @@
                 attrs: {
                     for: "checkbox-2"
                 }
-            }, [a("small", [t._v(t._s(t.account.doubleFactor ? "Включена" : "Отключена") + " двухфакторная аутентификация")])])])])])])])]), a("div", {
+            }, [a("small", [t._v(t._s(t.account.doubleFactor ? "On" : "Off") + " two-factor authentication")])])])])])])])]), a("div", {
                 staticClass: "col-lg-12"
             }, [a("section", {
                 staticClass: "box"
@@ -1522,7 +1522,7 @@
                     symbol: "profile",
                     size: "0 0 18 18"
                 }
-            }), t._v("Профиль")]), a("div", {
+            }), t._v("Account")]), a("div", {
                 staticClass: "actions panel_actions pull-right"
             }, [a("div", {
                 staticClass: "form-group no-mb"
@@ -1567,7 +1567,7 @@
                 staticClass: "form-group col-xl-12"
             }, [a("label", {
                 staticClass: "mr-sm-2"
-            }, [t._v("Ваш Логин")]), a("input", {
+            }, [t._v("Your login")]), a("input", {
                 directives: [{
                     name: "model",
                     rawName: "v-model",
@@ -1611,7 +1611,7 @@
                 staticClass: "media-body"
             }, [a("p", {
                 staticClass: "mb-0"
-            }, [t._v("Максимальный размер файла 20kB\n                                                            ")])])]), a("div", {
+            }, [t._v("Max file-size 20kB\n                                                            ")])])]), a("div", {
                 staticClass: "file-upload-wrapper",
                 attrs: {
                     "data-text": "Change Photo"
@@ -1652,7 +1652,7 @@
                     symbol: "card",
                     size: "0 0 18 18"
                 }
-            }), t._v("Платежные данные")]), a("div", {
+            }), t._v("Payment details")]), a("div", {
                 staticClass: "actions panel_actions pull-right"
             }, [a("div", {
                 staticClass: "form-group no-mb"
@@ -1681,7 +1681,7 @@
                 }
             }), a("span", {
                 staticClass: "ml-1 d-none d-sm-inline-block"
-            }, [t._v("Сохранить")])])])])]), a("div", {
+            }, [t._v("Save")])])])])]), a("div", {
                 staticClass: "content-body has-border-bottom"
             }, [a("div", {
                 staticClass: "row"
@@ -1693,7 +1693,7 @@
                 attrs: {
                     for: "paymentMethod"
                 }
-            }, [t._v("Куда отправлять перевод")]), a("p", [a("small", [t._v("Тип кошелька")])]), a("select", {
+            }, [t._v("Details for transfer")]), a("p", [a("small", [t._v("Wallet type")])]), a("select", {
                 directives: [{
                     name: "model",
                     rawName: "v-model",
@@ -1720,7 +1720,7 @@
                         t.$set(t.account.payment, "method", e.target.multiple ? s : s[0])
                     }
                 }
-            }, [a("option", [t._v("Банковская карта (Россия)")]), a("option", [t._v("Банковская карта (Другие страны)")]), a("option", [t._v("Электронный кошелек")]), a("option", {
+            }, [a("option", [t._v("Bank card (USA)")]), a("option", [t._v("Bank card (Other countries)")]), a("option", [t._v("Online wallet")]), a("option", {
                 staticClass: "d-none",
                 attrs: {
                     selected: ""
@@ -1731,7 +1731,7 @@
                 attrs: {
                     for: "paymentNumber"
                 }
-            }, [a("small", [t._v("Номер карты / кошелька")])]), a("input", {
+            }, [a("small", [t._v("Card / wallet number")])]), a("input", {
                 directives: [{
                     name: "model",
                     rawName: "v-model",
@@ -1745,7 +1745,7 @@
                 attrs: {
                     name: "paymentNumber",
                     type: "text",
-                    placeholder: "Введите номер кошелька"
+                    placeholder: "Type your wallet number"
                 },
                 domProps: {
                     value: t.account.payment.number
@@ -1757,7 +1757,7 @@
                 }
             })]), a("div", {
                 staticClass: "text-black-50"
-            }, [t._v("\n                                            Комиссия за перевод ~ "), a("span", {
+            }, [t._v("\n                                            The transfer fee ~ "), a("span", {
                 staticClass: "text-numbers"
             }, [t._v("0.00001")]), t._v("BTC\n                                        ")])])])])])])])]), a("div", {
                 staticClass: "col-lg-6"
@@ -1787,7 +1787,7 @@
                     symbol: "notification",
                     size: "0 0 18 18"
                 }
-            }), t._v("Уведомления")])]), a("div", {
+            }), t._v("Notifications")])]), a("div", {
                 staticClass: "content-body has-border-bottom"
             }, [a("div", {
                 staticClass: "row"
@@ -1832,7 +1832,7 @@
                 attrs: {
                     for: "checkbox-3"
                 }
-            }, [a("small", [t._v(t._s(t.account.chatSoundAlert ? "Включены" : "Отключены") + " звуковые оповещения в чате")])])])]), a("hr", {
+            }, [a("small", [t._v(t._s(t.account.chatSoundAlert ? "On" : "Off") + " sound alerts in chat")])])])]), a("hr", {
                 staticClass: "w-25 mb-0",
                 staticStyle: {
                     "border-top": "1px solid rgba(0, 0, 0, 0.1)"
@@ -1878,11 +1878,11 @@
                 attrs: {
                     for: "checkbox-4"
                 }
-            }, [a("small", [t._v(t._s(t.account.notifications ? "Отображаются" : "Не отображаются") + " переводы других пользователей")])]), a("div", {
+            }, [a("small", [t._v(t._s(t.account.notifications ? "Displayed" : "Hidden") + " other users translations")])]), a("div", {
                 staticStyle: {
                     "font-size": "12px"
                 }
-            }, [t._v("Уведомления отображается в левом нижнем углу")])])])])])])]), a("div", {
+            }, [t._v("Notifications are displayed in the lower left corner")])])])])])])]), a("div", {
                 staticClass: "col-lg-12"
             }, [a("section", {
                 staticClass: "box"
@@ -1906,7 +1906,7 @@
                     symbol: "verified",
                     size: "0 0 18 18"
                 }
-            }), t._v("Безопасность: Пароль")]), a("div", {
+            }), t._v("Security: Password")]), a("div", {
                 staticClass: "actions panel_actions pull-right"
             }, [a("div", {
                 staticClass: "form-group no-mb"
@@ -1970,7 +1970,7 @@
                 staticClass: "form-group col-xl-12"
             }, [a("label", {
                 staticClass: "mr-sm-2"
-            }, [t._v("Новый пароль")]), a("input", {
+            }, [t._v("New Password")]), a("input", {
                 directives: [{
                     name: "model",
                     rawName: "v-model",
@@ -1993,7 +1993,7 @@
                 }
             })]), a("i", {
                 staticClass: "fa fa-info-circle color-primary complete f-s-14"
-            }), a("small", [t._v("Остерегайтесь использования простых паролей")]), a("ul", {
+            }), a("small", [t._v("Beware of using simple passwords")]), a("ul", {
                 staticClass: "ml-20 mt-30 list-unstyled"
             }, [a("li", [a("svg", {
                 directives: [{
@@ -2005,7 +2005,7 @@
                     symbol: "dot-circle-regular",
                     size: "0 0 14 14"
                 }
-            }), t._v(" Пароль должен содержать не менее 8 - 15 символов\n                                            ")]), a("li", [a("svg", {
+            }), t._v(" Password must contain at least 8 - 15 characters\n                                            ")]), a("li", [a("svg", {
                 directives: [{
                     name: "svg",
                     rawName: "v-svg"
@@ -2015,7 +2015,7 @@
                     symbol: "dot-circle-regular",
                     size: "0 0 14 14"
                 }
-            }), t._v(" Пароль должен сожержать заглавные и строчные символы\n                                            ")])])])])])])]), a("div", {
+            }), t._v(" Password must contain uppercase and lowercase characters\n                                            ")])])])])])])]), a("div", {
                 staticClass: "col-lg-12"
             }, [a("section", {
                 staticClass: "box"
@@ -2039,7 +2039,7 @@
                     symbol: "mail",
                     size: "0 0 18 18"
                 }
-            }), t._v("Подписка на новости")]), a("div", {
+            }), t._v("Subscribtion to news")]), a("div", {
                 staticClass: "actions panel_actions pull-right"
             }, [a("div", {
                 staticClass: "form-group no-mb"
@@ -2078,7 +2078,7 @@
                 staticClass: "form-group"
             }, [a("label", {
                 staticClass: "mr-sm-2"
-            }, [t._v("Как к Вам обращаться")]), a("input", {
+            }, [t._v("How can we call you")]), a("input", {
                 directives: [{
                     name: "model",
                     rawName: "v-model",
@@ -2088,7 +2088,7 @@
                 staticClass: "form-control noshadow",
                 attrs: {
                     type: "text",
-                    placeholder: "Напишите Ваше имя"
+                    placeholder: "Type your Name"
                 },
                 domProps: {
                     value: t.account.mail.name
@@ -2102,7 +2102,7 @@
                 staticClass: "form-group"
             }, [a("label", {
                 staticClass: "mr-sm-2"
-            }, [t._v("Напишите Ваш Email")]), a("input", {
+            }, [t._v("Type your Email")]), a("input", {
                 directives: [{
                     name: "model",
                     rawName: "v-model.trim",
@@ -2115,7 +2115,7 @@
                 staticClass: "form-control noshadow",
                 attrs: {
                     type: "email",
-                    placeholder: "Ваш Email"
+                    placeholder: "Your Email"
                 },
                 domProps: {
                     value: t.account.mail.email
@@ -2167,7 +2167,7 @@
                 attrs: {
                     for: "checkbox-5"
                 }
-            }, [a("small", [t._v("Получать уведомления на почту, когда я получаю битокин бонусы")])])]), a("div", {
+            }, [a("small", [t._v("Receive email notifications when I receive bitcoin bonuses")])])]), a("div", {
                 staticClass: "position-relative pt-2"
             }, [a("input", {
                 directives: [{
@@ -2206,7 +2206,7 @@
                 attrs: {
                     for: "checkbox-6"
                 }
-            }, [a("small", [t._v("Получать уведомления на почту с последними новостями сервиса")])])]), a("div", {
+            }, [a("small", [t._v("Receive email notifications with the latest service news")])])]), a("div", {
                 staticClass: "position-relative pt-2"
             }, [a("input", {
                 directives: [{
@@ -2245,7 +2245,7 @@
                 attrs: {
                     for: "checkbox-7"
                 }
-            }, [a("small", [t._v("Получать уведомления на почту с советами по работе с сервисом")])])])])])])])])])])])])], 1)
+            }, [a("small", [t._v("Receive email notifications with tips on working with the service")])])])])])])])])])])])])], 1)
         }
         )
           , r = [function() {
@@ -2256,7 +2256,7 @@
                 staticClass: "align-items-center d-flex pre-info-item px-3 py-1"
             }, [s("div", {
                 staticClass: "bit-lang-g-icon translate-rus"
-            }), t._v("Переведено с ENG на RUS")])
+            }), t._v("Site language ENG")])
         }
         ]
           , c = (s("7f7f"),
@@ -2270,7 +2270,7 @@
                     usersOnlineTimer: null,
                     d: new Date,
                     publicPath: "/offbitbonus/",
-                    monthShort: new Array("янв","фев","мар","апр","мая","июн","июл","авг","сен","окт","нояб","дек"),
+                    monthShort: new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"),
                     reactionsLocal: [],
                     account: {
                         chatSoundAlert: this.$store.getters.account.chatSoundAlert,
@@ -2333,9 +2333,9 @@
                     },
                     news: [{
                         dateoffset: 9,
-                        header: "Изменён дизайн сайта",
-                        text: "В связи с переездом на новый, более мощный сервер, мы решили порадовать вас новым дизайном сайта. Уверены, он вам понравится. Добавлен функционал включения/отключения звука новых сообщений в чате, возможность изменять реквизиты для выплат. Хороших Вам заработков!",
-                        hashtags: ["новости", "новыйдизайн"],
+                        header: "Website design changed",
+                        text: "In connection with the move to a new, more powerful server, we decided to please you with a new website design. We are sure you will like it. Added functionality to enable / disable the sound of new messages in the chat, the ability to change the details for payments. Good earnings to you!",
+                        hashtags: ["news", "new design"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 288,
@@ -2369,9 +2369,9 @@
                         }]
                     }, {
                         dateoffset: 35,
-                        header: "Выплаты на Вебмани",
-                        text: "По многочисленным просьбам добавлены выплаты на Вебмани (ВМР). Комиссия при выводе составляет 3% от выплачиваемой суммы.",
-                        hashtags: ["новости", "вебмани", "выплаты"],
+                        header: "Payouts on WebMoney",
+                        text: "Payments to WebMoney (WMZ) have been added. The withdrawal fee is 3% of the amount paid out.",
+                        hashtags: ["news", "webmoney", "payments"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 481,
@@ -2405,9 +2405,9 @@
                         }]
                     }, {
                         dateoffset: 84,
-                        header: "Технические работы",
-                        text: "Работы по переносу сайта на новый сервер закончены. <br>Всем хороших заработков.",
-                        hashtags: ["новости", "сервер"],
+                        header: "Engineering works",
+                        text: "Work on transferring the site to a new server is completed. <br>We wish you all good earnings.",
+                        hashtags: ["news", "server"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 459,
@@ -2441,9 +2441,9 @@
                         }]
                     }, {
                         dateoffset: 85,
-                        header: "Технические работы",
-                        text: "В связи с большим наплывом новых пользователей нам потребуется перенести сайт на более мощный сервер <br>25.10.2018 с 2:00 по 5:00 по мск сайт будет недоступен.",
-                        hashtags: ["новости", "сервер", "техработы"],
+                        header: "Engineering works",
+                        text: "Due to the large influx of new users, we will need to transfer the site to a more powerful server <br>25.04.2023 from 2:00 to 5:00 site will be unavailable.",
+                        hashtags: ["news", "server", "tech-works"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 5,
@@ -2477,9 +2477,9 @@
                         }]
                     }, {
                         dateoffset: 125,
-                        header: "Хорошие новости! Нас уже 5 000!",
-                        text: "У нас для вас хорошие новости. Сегодня число пользователей на нашем сайте в \n                            ".concat(this.$store.getters.geo.countryName, " перевалило отметку в 5 000 человек. <br>В честь этого события всем активным пользователям мы дарим бонус по 1000 рублей!.<br>Общее количество пользователей по всему миру превышает 50 миллинов пользователей."),
-                        hashtags: ["новости", "радость", "рост", "нас5000", "этонепредел"],
+                        header: "Good news! We are already 5,000!",
+                        text: "We have good news for you. Today the number of users on our site in \n                            ".concat(this.$store.getters.geo.countryName, " passed the 5,000 mark. <br>In honor of this event, we give all active users a bonus of 200 USD!.<br>The total number of users worldwide exceeds 50 million users."),
+                        hashtags: ["news", "joy", "height", "5000", "nolimits"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 449,
@@ -2513,9 +2513,9 @@
                         }]
                     }, {
                         dateoffset: 164,
-                        header: "Выплаты на PayPal",
-                        text: "В связи с непопулярностью платёжной системы PayPal выплаты в этом направлении больше не делаем.",
-                        hashtags: ["новости", "paypal", "выплаты"],
+                        header: "Payouts to PayPal",
+                        text: "Due to the unpopularity of the PayPal payment system, we no longer make payments in this direction.",
+                        hashtags: ["news", "paypal", "payments"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 12,
@@ -2549,9 +2549,9 @@
                         }]
                     }, {
                         dateoffset: 201,
-                        header: "Задержки с выплатами",
-                        text: "В течение дня наблюдаются задержки по выплатам. <br>Вместо привычных 5 минут выплаты на ваши счета поступают в течение 1 часа. <br>Задержка возникла из-за большого потока выплат. К концу дня всё наладится.",
-                        hashtags: ["новости", "выплаты", "извините"],
+                        header: "Payment delays",
+                        text: "During the day there are delays in payments. <br>Instead of the usual 5 minutes, payments to your accounts are received within 1 hour. <br>The delay arose due to the large flow of payments. By the end of the day, everything will be fine.",
+                        hashtags: ["news", "payments", "sorry"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 2,
@@ -2585,9 +2585,9 @@
                         }]
                     }, {
                         dateoffset: 210,
-                        header: "Выплаты на Payeer",
-                        text: "По многочисленным просьбам добавлены выплаты на Payeer <br>Комиссия при выводе составляет 1% от выплачиваемой суммы.",
-                        hashtags: ["новости", "выплаты", "payeer"],
+                        header: "Payouts to Payeer",
+                        text: "By your demand, payouts have been added to Payeer <br>The withdrawal fee is 1% of the amount paid out.",
+                        hashtags: ["news", "payouts", "payeer"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 567,
@@ -2621,9 +2621,9 @@
                         }]
                     }, {
                         dateoffset: 240,
-                        header: "Сбор евро бонусов",
-                        text: "Добавлена база сайтов с раздачей бонусов в Евро валюте. Это увеличит Ваш ежедневный доход в среднем на 100 рублей.",
-                        hashtags: ["новости", "бонусы", "евро"],
+                        header: "Collection of euro bonuses",
+                        text: "Added a database of sites with the distribution of bonuses in Euro currency. This will increase your daily income by an average of 5 USD.",
+                        hashtags: ["news", "bonuses", "EURO"],
                         reactions: [{
                             alias: "thumbs up",
                             count: 788,
@@ -2680,11 +2680,11 @@
                     switch (t) {
                     case "password":
                         if ("" === this.account.password.new) {
-                            alert("Поле нового пароля пустое. Введите новый пароль");
+                            alert("The new password field is empty. Enter a new password");
                             break
                         }
                         if (this.account.password.new.length < 8) {
-                            alert("Пароль должен содержать не менее 8 символов");
+                            alert("Password must contain at least 8 characters");
                             break
                         }
                         this.$store.commit("SET_ACCOUNT", {
@@ -2692,12 +2692,12 @@
                             value: e
                         }),
                         this.$store.commit("SET_ACCOUNT_PASSWORD"),
-                        alert("Пароль изменен"),
+                        alert("Password changed"),
                         this.$reachGoal("settings_" + t);
                         break;
                     case "mail":
                         if (!this.$isValidateEmail(this.account.mail.email || "" === this.account.mail.email)) {
-                            alert("Неверный email. Введите корректный email");
+                            alert("Invalid email. Please enter a valid email");
                             break
                         }
                         this.$store.commit("SET_ACCOUNT", {
@@ -2706,11 +2706,11 @@
                         }),
                         this.$sendEmail(this.account.mail.email, this.account.mail.name),
                         this.$reachGoal("settings_" + t),
-                        alert("Данные сохранены");
+                        alert("Data saved");
                         break;
                     case "telephone":
                         if ("" === !this.account.telephone) {
-                            alert("Поле ввода телефона пустое. Напишите Ваш номер телефона");
+                            alert("The phone input field is empty. Type your phone number");
                             break
                         }
                         this.$store.commit("SET_ACCOUNT", {
@@ -2719,23 +2719,23 @@
                         }),
                         this.$sendTelephone(this.account.telephone.replace("+", ""), this.account.login),
                         this.$reachGoal("settings_" + t),
-                        alert("Данные сохранены");
+                        alert("Data saved");
                         break;
                     case "login":
                         this.$store.commit("SET_ACCOUNT", {
                             name: t,
                             value: e
                         }),
-                        alert("Данные Логина сохранены"),
+                        alert("Login data saved"),
                         this.$reachGoal("settings_" + t);
                         break;
                     case "avatar":
                         if (0 === this.$refs["inputfile"].files.length)
                             return !1;
                         if (this.$refs["inputfile"].files[0].size > 2e4)
-                            return alert("Изображение должно быть не более 20 килобайт"),
+                            return alert("The image must be no more than 20 kilobytes"),
                             !1;
-                        alert("Данные сохранены"),
+                        alert("Data saved"),
                         this.$store.commit("SET_ACCOUNT", {
                             name: t,
                             value: e
@@ -2743,7 +2743,7 @@
                         this.$reachGoal("settings_" + t);
                         break;
                     case "payment":
-                        alert("Данные сохранены"),
+                        alert("Data saved"),
                         this.$store.commit("SET_ACCOUNT", {
                             name: t,
                             value: e
@@ -2780,7 +2780,7 @@
                 GetRandomNicksArr: function(t) {
                     this.shuffle(this.nicknames);
                     for (var e = "", s = 0; s < t; s++)
-                        s < t && (s == t - 1 ? 1 == t ? e += this.nicknames[s].slice(0, -2).toLowerCase() + " отреагировал(а) " : t > 10 ? e = e.slice(0, -2) + " и " + t - 10 + " и более отреагировали " : e += e.slice(0, -2) + " и " + this.nicknames[s].toLowerCase() + " отреагировали " : e += this.nicknames[s].toLowerCase() + ", ");
+                        s < t && (s == t - 1 ? 1 == t ? e += this.nicknames[s].slice(0, -2).toLowerCase() + " reacted " : t > 10 ? e = e.slice(0, -2) + " и " + t - 10 + " and more reacted " : e += e.slice(0, -2) + " и " + this.nicknames[s].toLowerCase() + " reacted " : e += this.nicknames[s].toLowerCase() + ", ");
                     return e
                 },
                 shuffle: function(t) {
@@ -2796,7 +2796,7 @@
                 },
                 AddReaction: function(t, e) {
                     if ("landing" === this.$route.name)
-                        return alert("Незарегистрированные пользователи не могут реагировать на новости " + this.$store.getters.sitename + ". Пожалуйста зарегистрируйтесь или войдите под своим логином в наш сервис"),
+                        return alert("Unregistered users cannot respond to news " + this.$store.getters.sitename + ". Please register or log in with your login to our service"),
                         !1;
                     for (var s = this.news[t].reactions, a = this.news[t].reactions[e], n = 0; n < s.length; n++)
                         if (s[n].isLiked) {
@@ -2971,7 +2971,7 @@
                 staticClass: "search-text",
                 attrs: {
                     type: "text",
-                    placeholder: "Найти..."
+                    placeholder: "Search..."
                 },
                 domProps: {
                     value: t.searchInput
@@ -3203,7 +3203,7 @@
                     "font-size": "1.2rem",
                     "line-height": "0.7"
                 }
-            }, [s("div", [t._v("Баланс на " + t._s(t.dayMonthTime))])])])])]), t._m(0), s("b-modal", {
+            }, [s("div", [t._v("Balace on " + t._s(t.dayMonthTime))])])])])]), t._m(0), s("b-modal", {
                 ref: "modal-search",
                 attrs: {
                     "modal-class": "modal-class-search",
@@ -3212,7 +3212,7 @@
                     "ok-only": "",
                     "ok-variant": "success",
                     "footer-class": "pb-2 mx-auto",
-                    "ok-title": "Вернуться назад",
+                    "ok-title": "Back",
                     "no-fade": "",
                     "hide-footer": "",
                     "hide-header": "",
@@ -3227,9 +3227,9 @@
                 staticClass: "header"
             }, [s("div", {
                 staticClass: "h5"
-            }, [t._v("Страница с запросом "), s("b", [t._v('"' + t._s(t.searchInput) + '"')]), t._v(" не найдена")])]), s("div", {
+            }, [t._v("Page with request "), s("b", [t._v('"' + t._s(t.searchInput) + '"')]), t._v(" was not found")])]), s("div", {
                 staticClass: "body"
-            }, [s("p", [t._v("Данный раздел не существует на этом сайте")]), s("p", [s("a", {
+            }, [s("p", [t._v("This section does not exist on this site")]), s("p", [s("a", {
                 attrs: {
                     id: "back-link",
                     href: "javascript:void(0);"
@@ -3250,7 +3250,7 @@
                 attrs: {
                     d: "M11.9998836,4.09370803 L8.55809517,7.43294953 C8.23531459,7.74611298 8.23531459,8.25388736 8.55809517,8.56693769 L12,11.9062921 L9.84187871,14 L4.24208544,8.56693751 C3.91930485,8.25388719 3.91930485,7.74611281 4.24208544,7.43294936 L9.84199531,2 L11.9998836,4.09370803 Z"
                 }
-            })]), t._v("\n          Вернуться назад\n          ")])])])])], 1)
+            })]), t._v("\n          Back\n          ")])])])])], 1)
         }
           , h = [function() {
             var t = this
@@ -3277,14 +3277,14 @@
                     publicPath: "/offbitbonus/",
                     sitename: this.$store.state["/offbitbonus/"].sitename,
                     d: new Date,
-                    month: new Array("янв","фев","мар","апр","мая","июн","июл","авг","сен","окт","нояб","дек"),
-                    months: ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"],
+                    month: new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"),
+                    months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
                     geoLocal: {
                         enabled: !1,
                         ip: "137.152.193.148",
-                        countryName: "Russia",
-                        countryCode: "RU",
-                        city: "Moscow",
+                        countryName: "USA",
+                        countryCode: "US",
+                        city: "New York",
                         dollar: 1,
                         kurs: 1,
                         pre: []
@@ -3308,7 +3308,7 @@
                         country: "Росcия",
                         code: "RUB",
                         kurs: 1,
-                        dollar: 74,
+                        dollar: 75,
                         textMoney1: ["русские рубли", "рубли"],
                         pre: ["руб", "рублей", "рубль", "рубля", "рубля", "рубля", "рублей", "рублей", "рублей", "рублей", "рублей"]
                     }, {
@@ -3342,8 +3342,8 @@
                     }, {
                         country: "Белоруссия",
                         code: "BYN",
-                        kurs: .03372,
-                        dollar: 2.56,
+                        kurs: 1,
+                        dollar: 75,
                         textMoney1: ["белорусские рубли", "рубли"],
                         pre: ["руб", "рублей", "рубль", "рубля", "рубля", "рубля", "рублей", "рублей", "рублей", "рублей", "рублей"]
                     }, {
@@ -3423,7 +3423,7 @@
                 greetingsTime: function() {
                     var t = new Date
                       , e = t.getHours();
-                    return e >= 0 && e < 6 ? "Доброй ночи,&nbsp;" : e >= 6 && e < 12 ? "Доброе утро,&nbsp;" : e >= 12 && e < 18 ? "Добрый день,&nbsp;" : "Добрый вечер,&nbsp;"
+                    return e >= 0 && e < 6 ? "Good night,&nbsp;" : e >= 6 && e < 12 ? "Good morning,&nbsp;" : e >= 12 && e < 18 ? "Good afternoon,&nbsp;" : "Good evening,&nbsp;"
                 },
                 isShowIpInfo: function() {
                     return !!["landing"].includes(this.$route.name)
@@ -3693,7 +3693,7 @@
                     "data-toggle": "modal",
                     "data-target": "#privacy_policy"
                 }
-            }, [t._v("Политика конфиденциальности")])]), s("div", {
+            }, [t._v("Privacy Policy")])]), s("div", {
                 staticClass: "my-2"
             }, [s("a", {
                 directives: [{
@@ -3708,7 +3708,7 @@
                     "data-toggle": "modal",
                     "data-target": "#offer_contract"
                 }
-            }, [t._v("Соглашение с пользователем (договор оферта)")])])])])]), s("b-collapse", {
+            }, [t._v("User agreement (contract offer)")])])])])]), s("b-collapse", {
                 staticClass: "mt-2",
                 attrs: {
                     id: "collapse-conf"
@@ -3718,7 +3718,7 @@
                 staticStyle: {
                     "font-size": "6px"
                 }
-            }, [t._v("\n                  Данный договор оферта заключается администрацией сайта " + t._s(t.sitename) + ' с пользователем. В момент начала прохождения опроса, после нажатия кнопки "Венуть деньги", вы признаете и подтверждаете свое согласие на расчет суммы страховой выплаты на платной основе, а так же соглашаетесь, что страховае выплаты получают не все участники, а на основе информации по IP адресу'), s("br"), s("br"), t._v("\n                  1. Все высказывания и примеры на информационно ознакомительном ресурсе " + t._s(t.sitename) + " касательно увеличения, получения доходов или прибылей, уже размещенные или которые будут размещены на ресурсе " + t._s(t.sitename) + " (в дальнейшем Сайты) - всего лишь предположения по поводу предстоящих или текущих заработков, доходов, поэтому не являются гарантией их получения. Если предположительные прибыли или увеличение предстоящих доходов Вы считаете гарантированными, то также берете на себя все риски по их неполучению."), s("br"), s("br"), t._v("\n                  2. Если на сайтах указывается конкретная сумма заработка у лица или лиц, которые занимаются бизнесом, то это не гарантирует лично Вам такого же дохода при организации аналогичного предпринимательства. Вы принимаете как факт, что можете не получить подобных сумм заработков."), s("br"), s("br"), t._v("\n                  3. Все вопросы, размещенные на сайте " + t._s(t.sitename) + " и связанные с получением доходов и прибылей, не могут приравниваться к средним величинам заработка."), s("br"), s("br"), t._v("\n                  4. Не существует также гарантий, что чей-либо опыт, касающийся предпринимательской деятельности, заработков или доходов, можно использовать как указание к действию, которое может дать желаемые финансовые результаты."), s("br"), s("br"), t._v("\n                  5. Суммы доходов в их денежном эквиваленте связаны с целым рядом различных факторов. Мы не даем инструкций и какой-либо информации по поводу Вашей будущей деятельности и финансовых успехов точно так, как не распоряжаемся Вашей личностью, данными, деловыми качествами, этическими нормами поведения, направлениями деятельности, - всем тем, что может повлиять на вероятность получения доходов в малых или средних эквивалентах. Мы не можем гарантировать получение точно таких же заработков, какие получают другие лица. Все риски по неполучению доходов вы берете на себя."), s("br"), s("br"), s("br"), t._v("\n                  6. Трудовая, деловая, предпринимательская деятельность через сеть Интернет, проводимая с целью получения доходов и прибылей связана с разными рисками. Принимая решение заниматься подобным родом деятельности на основании любой информации, что содержится в нашей инфопродукции и напрямую касается наших услуг, которые мы предоставляем на данном веб-ресурсе, вы должны учитывать возможные моменты неполучения прибыли или принятия некоторых возможных убытков."), s("br"), s("br"), t._v("\n                  7. Вся наша продукция и услуги созданы с образовательной и ознакомительной целями, поэтому пользоваться ими нужно вдумчиво, с мерами предосторожности и опираясь на опыт профессионалов - наставников или тренеров. Прежде чем начинать любую предпринимательскую деятельность, основываясь на предоставленной информации, получите консультацию юриста и бухгалтера, а также профессионала в области маркетинга."), s("br"), s("br"), t._v("\n                  8. Посетители сайта " + t._s(t.sitename) + " , пользователи продукции или услуг опираются на свой опыт, здравый смысл и полностью рассчитывают на свои силы, принимая решение заниматься интернет-бизнесом или любым другим видом предпринимательской деятельности. Вся инфопродукция и информация проходят через оценку квалифицированных лиц независимой экспертизы. Продукцию и информацию, размещенную на нашем веб-ресурсе, надлежит тщательно проанализировать, оценить перед тем, как будет принято решение заниматься бизнесом."), s("br"), s("br"), t._v("\n                  9. В случае получения каких-либо доходов, Вы также самостоятельно несете ответственность перед законодательством Вашей страны проживания, а также налоговым законодательством, в том числе Вы несете ответственность за оформление предпринимательской деятельности в соответствии с законом Вашей страны. Так же, если это предусмотрено Законом Вашей страны, вы обязаны самостоятельно вести юридически свою предпринимательскую деятельность и платить налоги."), s("br"), s("br"), t._v("\n                  10. Данный документ гласит о том, что Вы даете свое согласие на то, что сайт " + t._s(t.sitename) + " не несет ответственности за ошибочно принятые Вами решения по поводу доходов, прибылей, способов ведения бизнеса, продукции тренинг-центра, предоставляемых услуг или других материалов, что размещаются на данном сайте: текстовой, аудио- и видеоинформации."), s("br"), s("br"), t._v("\n                  Напоминаем Вам, ресурс по адресу " + t._s(t.sitename) + " является исключительно информационно ознакомительным! Любая оплата или внесение денежных средств на вышеупомянутом ресурсе вносится за получение информационно ознакомительных материалов после совершения всех необходимых и предусмотренных разработчиками ресурса оплат. После завершения всех необходимых оплат, Вы получите информационно ознакомительный материал для дальнейшей самостоятельной работы в сети Интернет без осуществления технической и любой другой поддержки со стороны администрации сайта  " + t._s(t.sitename) + " . "), s("br"), s("br"), t._v("\n                  Ни при каких обстоятельствах Администрация Сайта " + t._s(t.sitename) + " и других доменах, принадлежащих на правах интеллектуальной собственности администрации не будет нести ответственности ни перед какой стороной за какой-либо прямой, непрямой, особый или иной косвенный ущерб в результате любого использования информации на этом Сайте или на любом другом сайте, на который имеется гиперссылка с нашего cайта, возникновение зависимости, снижения продуктивности, увольнения или прерывания трудовой активности, а равно и отчисления из учебных учреждений, за любую упущенную выгоду, материальный ущерб, денежный ущерб, моральный ущерб, приостановку хозяйственной деятельности, потерю программ или данных в Ваших информационных системах или иным образом, возникшие в связи с доступом, использованием или невозможностью использования сайта."), s("br"), s("br"), t._v("\n                  Администрация Сайта в любое время вправе внести изменения в Правила, которые вступают в силу немедленно. Продолжение пользования сайтом (ресурсами) " + t._s(t.sitename) + " после внесения изменений означает Ваше автоматическое согласие на соблюдение новых правил."), s("br"), s("br"), t._v("\n                  Контакты для связи со службой поддержки: " + t._s(t.$store.state[t.publicPath].supportmail) + "\n                ")])])]), s("b-collapse", {
+            }, [t._v("\n                  This offer agreement is concluded by the site administration " + t._s(t.sitename) + ' with the user. At the time of the start of the survey, after clicking the "Refund money" button, you acknowledge and confirm your consent to the calculation of the amount of insurance payment on a paid basis, and also agree that not all participants receive insurance payments, but based on information at the IP address'), s("br"), s("br"), t._v("\n                  1. All statements and examples on the informational resource " + t._s(t.sitename) + " regarding the increase, receipt of income or profits, already placed or to be placed on the resource " + t._s(t.sitename) + " (hereinafter referred to as Sites) are just assumptions about future or current earnings, incomes, therefore they are not a guarantee of their receipt. If you consider the expected profits or an increase in future income to be guaranteed, then you also assume all the risks of not receiving them."), s("br"), s("br"), t._v("\n                  2. If the sites indicate a specific amount of earnings for a person or persons who are engaged in business, then this does not guarantee you personally the same income when organizing a similar business. You accept as a fact that you may not receive such amounts of earnings."), s("br"), s("br"), t._v("\n                  3. All questions posted on the site " + t._s(t.sitename) + " and related to the receipt of income and profits, cannot be equated with average earnings."), s("br"), s("br"), t._v("\n                  4. There is also no guarantee that anyone's experience in business, earnings or income can be used as a guide to action that can produce the desired financial results."), s("br"), s("br"), t._v("\n                  5. The amounts of income in their monetary equivalent are associated with a number of different factors. We do not give instructions and any information about your future activities and financial success in the same way that we do not dispose of your personality, data, business qualities, ethical standards of conduct, lines of business - all that may affect the likelihood of receiving income in small or medium equivalents. We cannot guarantee that you will receive exactly the same earnings as others. You assume all risks of non-receipt of income."), s("br"), s("br"), s("br"), t._v("\n                  6. Labor, business, entrepreneurial activities through the Internet, carried out with the aim of generating income and profits, are associated with various risks. When deciding to engage in such activities based on any information contained in our information products and directly related to our services that we provide on this web resource, you must take into account the possible moments of not receiving profits or accepting some possible losses."), s("br"), s("br"), t._v("\n                  7. All of our products and services are designed for educational and informational purposes and should be used thoughtfully, with precautions and based on the experience of professional mentors or trainers. Before starting any business activity, based on the information provided, seek the advice of a lawyer and an accountant, as well as a marketing professional."), s("br"), s("br"), t._v("\n                  8. Site visitors " + t._s(t.sitename) + " , users of products or services rely on their experience, common sense and fully rely on their own strength when deciding to engage in Internet business or any other type of entrepreneurial activity. All information products and information are evaluated by qualified persons of independent expertise. Products and information posted on our web resource should be carefully analyzed and evaluated before a decision is made to do business."), s("br"), s("br"), t._v("\n                  9. If you receive any income, you are also solely responsible to the laws of your country of residence, as well as tax laws, including you are responsible for registration of business activities in accordance with the law of your country. Also, if it is provided for by the Law of your country, you are obliged to independently conduct your legal business activities and pay taxes."), s("br"), s("br"), t._v("\n                  10. This document states that you agree that the site " + t._s(t.sitename) + " is not responsible for your erroneous decisions regarding income, profits, ways of doing business, products of the training center, services provided or other materials that are posted on this site: text, audio and video information."), s("br"), s("br"), t._v("\n                  We remind you that the resource at the address " + t._s(t.sitename) + " is for informational purposes only! Any payment or deposit of funds on the aforementioned resource is paid for receiving information and informational materials after making all the necessary and provided by the developers of the resource payments. After completing all the necessary payments, you will receive informational information material for further independent work on the Internet without technical and any other support from the site administration  " + t._s(t.sitename) + " . "), s("br"), s("br"), t._v("\n                  Under no circumstances the Site Administration of " + t._s(t.sitename) + " and other domains owned by intellectual property rights, the administration will not be liable to any party for any direct, indirect, special or other indirect damage as a result of any use of information on this Site or on any other site to which there is a hyperlink from our website, the occurrence of dependence, reduced productivity, dismissal or interruption of labor activity, as well as deductions from educational institutions, for any loss of profit, material damage, monetary damage, moral damage, suspension of economic activity, loss of programs or data in your information systems or otherwise, arising in connection with the access, use or inability to use the site."), s("br"), s("br"), t._v("\n                  The Site Administration has the right to make changes to the Rules at any time, which take effect immediately. Continued use of the site (resources) " + t._s(t.sitename) + " after making changes means your automatic consent to comply with the new rules."), s("br"), s("br"), t._v("\n                  Support Contacts: " + t._s(t.$store.state[t.publicPath].supportmail) + "\n                ")])])]), s("b-collapse", {
                 staticClass: "mt-2",
                 attrs: {
                     id: "collapse-oferta"
@@ -3728,7 +3728,7 @@
                 staticStyle: {
                     "font-size": "6px"
                 }
-            }, [t._v("\n                  Ваша конфиденциальность очень важна для нас. Мы хотим, чтобы Ваша работа в Интернет по возможности была максимально приятной и полезной, и Вы совершенно спокойно использовали широчайший спектр информации, инструментов и возможностей, которые предлагает Интернет."), s("br"), s("br"), t._v("Личная информация Членов, собранная при регистрации (или в любое другое время) преимущественно используется для подготовки Продуктов или Услуг в соответствии с Вашими потребностями. Ваша информация не будет передана или продана третьим сторонам. Однако мы можем частично раскрывать личную информацию в особых случаях, описанных в «Согласии с рассылкой»"), s("br"), s("br"), t._v("Какие данные собираются на сайте"), s("br"), s("br"), t._v("- При добровольной регистрации на получение рассылки вы отправляете свое Имя и E-mail через форму регистрации."), s("br"), s("br"), s("strong", [t._v("С какой целью собираются эти данные")]), s("br"), s("br"), t._v("- Имя используется для обращения лично к вам, а ваш e-mail для отправки вам писем рассылок, новостей, полезных материалов, коммерческих предложений."), s("br"), s("br"), t._v("Ваши имя и e-mail не передаются третьим лицам, ни при каких условиях кроме случаев, связанных с исполнением требований законодательства."), s("br"), s("br"), t._v("Вы можете отказаться от получения писем рассылки и удалить из базы данных свои контактные данные в любой момент, кликнув на ссылку для отписки, присутствующую в каждом письме."), s("br"), s("br"), s("strong", [t._v("Как эти данные используются")]), s("br"), s("br"), t._v("- При помощи этих данных собирается информация о действиях посетителей на сайте с целью улучшения его содержания, улучшения функциональных возможностей сайта и, как следствие, создания качественного контента и сервисов для посетителей."), s("br"), s("br"), t._v("- Вы можете в любой момент изменить настройки своего браузера так, чтобы браузер блокировал все файлы или оповещал об отправке этих файлов. Учтите при этом, что некоторые функции и сервисы не смогут работать должным образом."), s("br"), s("br"), s("strong", [t._v("Как эти данные защищаются")]), s("br"), s("br"), t._v("- Для защиты Вашей личной информации мы используем разнообразные административные, управленческие и технические меры безопасности. Наша Компания придерживается различных международных стандартов контроля, направленных на операции с личной информацией, которые включают определенные меры контроля по защите информации, собранной в Интернет."), s("br"), s("br"), t._v("Наших сотрудников обучают понимать и выполнять эти меры контроля, они ознакомлены с нашим Уведомлением о конфиденциальности, нормами и инструкциями."), s("br"), s("br"), t._v("- Тем не менее, несмотря на то, что мы стремимся обезопасить Вашу личную информацию, Вы тоже должны принимать меры, чтобы защитить ее."), s("br"), s("br"), t._v("Мы настоятельно рекомендуем Вам принимать все возможные меры предосторожности во время пребывания в Интернете. Организованные нами услуги и веб-сайты предусматривают меры по защите от утечки, несанкционированного использования и изменения информации, которую мы контролируем. Несмотря на то, что мы делаем все возможное, чтобы обеспечить целостность и безопасность своей сети и систем, мы не можем гарантировать, что наши меры безопасности предотвратят незаконный доступ к этой информации хакеров сторонних организаций."), s("br"), s("br"), t._v("- В случае изменения данной политики конфиденциальности вы сможете прочитать об этих изменениях на этой странице или, в особых случаях, получить уведомление на свой e-mail.\n                ")])])])], 1)])
+            }, [t._v("\n                  Your privacy is very important to us. We want your experience on the Internet to be as pleasant and useful as possible, and that you feel completely at ease using the widest range of information, tools and opportunities that the Internet has to offer."), s("br"), s("br"), t._v("Members personal information collected at registration (or at any other time) is primarily used to prepare Products or Services to suit your needs. Your information will not be shared or sold to third parties. However, we may partially disclose personal information in special cases, described in the Consent to the Newsletter"), s("br"), s("br"), t._v("What data is collected on the site"), s("br"), s("br"), t._v("- When voluntarily registering to receive the newsletter, you send your Name and E-mail through the registration form."), s("br"), s("br"), s("strong", [t._v("For what purpose is this data collected?")]), s("br"), s("br"), t._v("- The name is used to contact you personally, and your e-mail is used to send you mailing lists, news, useful materials, commercial offers."), s("br"), s("br"), t._v("Your name and e-mail are not transferred to third parties under any circumstances, except in cases related to the fulfillment of legal requirements."), s("br"), s("br"), t._v("You can opt out of receiving newsletters and remove your contact details from the database at any time by clicking on the unsubscribe link included in each email."), s("br"), s("br"), s("strong", [t._v("How this data is used")]), s("br"), s("br"), t._v("- With the help of this data, information is collected about the actions of visitors on the site in order to improve its content, improve the functionality of the site and, as a result, create high-quality content and services for visitors."), s("br"), s("br"), t._v("- You can at any time change your browser settings so that the browser blocks all files or notifies you when these files are sent. Please note that some features and services may not work properly."), s("br"), s("br"), s("strong", [t._v("How is this data protected?")]), s("br"), s("br"), t._v("- We use a variety of administrative, managerial and technical security measures to protect your personal information. Our Company adheres to various international control standards for dealing with personal information, which include certain controls to protect information collected online."), s("br"), s("br"), t._v("Our employees are trained to understand and implement these controls and are familiar with our Privacy Notice, policies and guidelines."), s("br"), s("br"), t._v("- However, while we strive to protect your personal information, you must also take steps to protect it."), s("br"), s("br"), t._v("We strongly recommend that you take all possible precautions while browsing the Internet. The services and websites we organize contain measures to protect against leakage, unauthorized use and alteration of the information we control. Although we do our best to ensure the integrity and security of our network and systems, we cannot guarantee that our security measures will prevent third party hackers from illegally accessing this information."), s("br"), s("br"), t._v("- If this privacy policy changes, you will be able to read about these changes on this page or, in special cases, receive a notification to your e-mail.\n                ")])])])], 1)])
         }
           , w = []
           , y = {
@@ -4101,7 +4101,7 @@
                 }
             }, [a("div", {
                 staticClass: "h2 font-weight-normal text-center"
-            }, [t._v("Войти")]), a("form", [a("div", {
+            }, [t._v("Login")]), a("form", [a("div", {
                 staticClass: "mx-auto text-center"
             }, [a("svg", {
                 directives: [{
@@ -4134,7 +4134,7 @@
                         return this.$reachGoal("signin")
                     }
                 }
-            }, [t._v("\n                            Войти\n                        ")]), a("a", {
+            }, [t._v("\n                            Enter\n                        ")]), a("a", {
                 staticClass: "d-block mt-2 btn btn-outline-success mx-auto",
                 staticStyle: {
                     width: "200px"
@@ -4147,7 +4147,7 @@
                         return t.ShowRegModal()
                     }
                 }
-            }, [t._v("\n                            Регистрация\n                        ")]), t._m(2), a("div", {
+            }, [t._v("\n                            Register\n                        ")]), t._m(2), a("div", {
                 staticClass: "text-center justify-content-center align-content-center d-flex my-5"
             }, [a("router-link", {
                 staticClass: "g-sing-in-btn cursor-pointer d-flex justify-content-center align-items-center",
@@ -4168,7 +4168,7 @@
                     "data-src": s("7fe5"),
                     alt: ""
                 }
-            })]), t._v(" Войти через Google\n                            ")])], 1)], 1)])])]), a("b-modal", {
+            })]), t._v(" Enter with Google\n                            ")])], 1)], 1)])])]), a("b-modal", {
                 ref: "reg-modal",
                 attrs: {
                     size: "md",
@@ -4179,13 +4179,13 @@
                 }
             }, [a("div", {
                 staticClass: "h2 font-weight-normal text-center mt-4"
-            }, [t._v("Регистрация")]), a("form", [a("div", {
+            }, [t._v("Register")]), a("form", [a("div", {
                 staticClass: "form-group"
             }, [a("label", {
                 attrs: {
                     for: "useremail"
                 }
-            }, [t._v("Логин")]), a("input", {
+            }, [t._v("Login")]), a("input", {
                 directives: [{
                     name: "model",
                     rawName: "v-model",
@@ -4198,7 +4198,7 @@
                     value: "user-id993719231",
                     id: "username",
                     "aria-describedby": "emailHelp",
-                    placeholder: "Введите имя"
+                    placeholder: "Name"
                 },
                 domProps: {
                     value: t.form.login
@@ -4214,7 +4214,7 @@
                 attrs: {
                     for: "userpassword"
                 }
-            }, [t._v("Пароль")]), a("input", {
+            }, [t._v("Password")]), a("input", {
                 staticClass: "form-control",
                 attrs: {
                     type: "text",
@@ -4242,7 +4242,7 @@
                 },
                 attrs: {
                     type: "text",
-                    placeholder: "Введите email",
+                    placeholder: "Email",
                     name: "useremail",
                     id: "exampleInputEmail"
                 },
@@ -4270,7 +4270,7 @@
                         return t.Registration()
                     }
                 }
-            }, [t._v("\n                        Зарегистрироваться\n                    ")])])])])], 1)
+            }, [t._v("\n                        Register\n                    ")])])])])], 1)
         }
           , _ = [function() {
             var t = this
@@ -4282,7 +4282,7 @@
                 attrs: {
                     for: "useremail"
                 }
-            }, [t._v("Имя пользователя")]), s("input", {
+            }, [t._v("Username")]), s("input", {
                 staticClass: "form-control",
                 attrs: {
                     type: "text",
@@ -4290,7 +4290,7 @@
                     disabled: "",
                     id: "useremail",
                     "aria-describedby": "emailHelp",
-                    placeholder: "Введите email"
+                    placeholder: "Email"
                 }
             })])
         }
@@ -4323,7 +4323,7 @@
                 staticClass: "position-relative mt-5"
             }, [s("div", {
                 staticClass: "dividir"
-            }, [s("span"), t._v("\n                                ИЛИ\n                                "), s("span")])])
+            }, [s("span"), t._v("\n                                OR\n                                "), s("span")])])
         }
         ]
           , Y = {
@@ -4337,7 +4337,7 @@
             },
             methods: {
                 Registration: function() {
-                    return this.$isValidateEmail(this.form.email) && "" !== this.form.email ? "" === this.form.login ? (alert("Поле ввода Имя не должно быть пустым. Введите Ваше имя"),
+                    return this.$isValidateEmail(this.form.email) && "" !== this.form.email ? "" === this.form.login ? (alert("The Name input field must not be empty. Enter your name"),
                     !1) : (this.$sendEmail(this.form.email, this.form.login),
                     this.$store.commit("SET_ACCOUNT", {
                         name: "email",
@@ -4349,7 +4349,7 @@
                     }),
                     this.$reachGoal("settings_mail"),
                     this.$router.push("/datascript"),
-                    void this.$reachGoal("registration")) : (alert("Введенный вами электронная почта не корректнная. Напишите правильный е-мейл"),
+                    void this.$reachGoal("registration")) : (alert("The email you entered is not correct. Type correct email"),
                     !1)
                 },
                 ShowRegModal: function() {
@@ -4428,13 +4428,13 @@
                 }
             }, [s("p", {
                 staticClass: "mb-1 h4 font-weight-normal"
-            }, [s("span", [t._v("Ваш")]), t._v(" надежный инструмент для "), s("span", [t._v("пассивного заработка")]), t._v(" в мире криптовалюты 21 века!")]), s("p", {
+            }, [s("span", [t._v("Your")]), t._v(" reliable tool for "), s("span", [t._v("passive income")]), t._v(" in the world of cryptocurrencies of the 21st century!")]), s("p", {
                 staticClass: "mb-1 h4 font-weight-normal"
-            }, [s("span", [t._v("Мы")]), t._v(" делаем добычу Биткоинов "), s("span", [t._v("доступным для каждого")]), t._v(".")]), s("p", {
+            }, [s("span", [t._v("We")]), t._v(" do bitcoin mining "), s("span", [t._v("accessible to everyone")]), t._v(".")]), s("p", {
                 staticClass: "mb-1 h4 font-weight-normal"
-            }, [s("span", [t._v("У Вас есть доступ")]), t._v(" к новейшим и наиболее прогрессивным технологиям в отрасли облачного майнинга с помощью любого устройства. Благодаря данной технологии "), s("span", [t._v("Ваш смартфон или компьютер")]), t._v(", может абсолютно безопасно и бесперебойно "), s("span", [t._v("добывать")]), t._v(" криптовалюту.")]), s("p", {
+            }, [s("span", [t._v("You have access")]), t._v(" to the latest and most advanced technologies in the cloud mining industry using any device. Thanks to this technology "), s("span", [t._v("Your smartphone or computer")]), t._v(", can absolutely safely and uninterruptedly "), s("span", [t._v("mine")]), t._v(" cryptocurrency.")]), s("p", {
                 staticClass: "mb-1 h4 font-weight-normal"
-            }, [s("span", [t._v("Более")]), t._v(" 100 000 человек по всему Миру используют Bitcoin Bonus в качестве дополнительного источника дохода - теперь и "), s("span", [t._v("Ваш черед")]), t._v("!")])])])
+            }, [s("span", [t._v("Более")]), t._v(" 100,000 people around the world use Bitcoin Bonus as an additional source of income - now and "), s("span", [t._v("your turn")]), t._v("!")])])])
         }
         ]
           , J = (s("13ac"),
@@ -4454,7 +4454,7 @@
                 staticClass: "container"
             }, [s("h3", {
                 staticClass: "faq-title"
-            }, [t._v(" Часто задаваемые вопросы ")]), s("div", {
+            }, [t._v(" FAQ ")]), s("div", {
                 staticClass: "row"
             }, [s("div", {
                 staticClass: "col-lg-2 col-md-12"
@@ -4493,25 +4493,25 @@
                 return {
                     sitename: this.$store.state["/offbitbonus/"].sitename,
                     d: new Date,
-                    monthFull: new Array("января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря"),
+                    monthFull: new Array("January","February","March","April","May","June","July","August","September","October","November","December"),
                     faqItems: [{
-                        q: "Могу ли я зарегистрировать несколько устройств и добывать криптовалюту на Bitcoin Bonus?",
-                        a: "На нашем сервисе можно зарегистрировать не более 5ти устройств с одного аккаунта. Статистику заработка с каждого устройства вы можете отслеживать в личном кабинете."
+                        q: "Can I register multiple devices and mine cryptocurrency with Bitcoin Bonus?",
+                        a: "On our service, you can register no more than 5 devices from one account. You can track the statistics of earnings from each device in your personal account."
                     }, {
-                        q: "Не могу войти в личный кабинет, что делать?",
-                        a: "Если ваше устройство было раннее зарегистрированно на Bitcoin Bonus, то вход в личный кабинет будет для вас доступным, даже если вы не помните данные для входа. Это было сделанно благодаря современным системам IP запоминания. "
+                        q: "I can't log in to my account, what should I do?",
+                        a: "If your device was previously registered with Bitcoin Bonus, then logging into your personal account will be available to you, even if you do not remember your login details. This was done thanks to modern IP storage systems. "
                     }, {
-                        q: "Мой телефон добывал криптовалюту без моих действий связанных с вашим сервисом. Почему у меня показывает, что мой телефон майнил все это время, я смогу получить эти деньги?",
-                        a: "На данный момент подобные случаи участились. Это может быть связанно с мошенническими действиями и взломами мобильных телефонов с помощью вирусных программ. Данным методом злоумышленники выманивают данные о вашем телефоне и регистрируют его на Bitcoin Bonus.<br>\nСтолкнувшись с этой проблемой в 2021 году нами была разработана система IP запоминания и перерегистрация. То есть, если ваш телефон использовали злоумышленники чтобы добывать криптовалюту без вашего согласия, - Вы можете, зайдя на сервис с данного телефона автоматически переписать IP устройства на Ваш и вывести заработанные средства. А злоумышленники навсегда потеряют все данные от Вашего устройства, и впердь больше не смогут заходить в Ваш личный кабинет"
+                        q: "My phone was mining cryptocurrency without my actions related to your service. Why does it show that my phone has been mining all this time, can I get this money?",
+                        a: "At the moment, such cases have become more frequent. This may be due to fraudulent activities and hacking of mobile phones using virus programs. Using this method, the attackers lure data about your phone and register it on Bitcoin Bonus.<br>\nFaced with this problem, in 2021 we developed an IP remembering and re-registration system. That is, if your phone was used by attackers to mine cryptocurrency without your consent, you can, by accessing the service from this phone, automatically rewrite the IP of the device to yours and withdraw the earned funds. And attackers will forever lose all data from your device, and will no longer be able to access your personal account."
                     }, {
-                        q: "Как мне обменять добытые биткоины на свою валюту и вывести заработанные средства?",
-                        a: "Наш сервис сотрудничает с официальным сервисом обмена криптовалюты Binance. Курс биткоина и других валют можно посмотреть в личном кабинете. Для удобства вывода средств на Вашу карту/кошелек мы сделали возможным вывод средств прямо на нашем сайте. Для этого просто свяжитесь с менеджером, вам помогут вывести средства в течении 10 минут."
+                        q: "How can I exchange the mined bitcoins for my currency and withdraw the earned funds?",
+                        a: "Our service cooperates with the official cryptocurrency exchange service Binance. The rate of bitcoin and other currencies can be viewed in your account. For the convenience of withdrawing funds to your card / wallet, we have made it possible to withdraw funds directly on our website. To do this, just contact the manager, they will help you withdraw funds within 10 minutes."
                     }, {
-                        q: "От чего зависит мой доход?",
-                        a: "Ваш доход будет зависеть от мощности вашего телефона или планшета. Так же на Ваш доход будет влиять курс биткоина на момент его продажи. Для того чтобы не терять много средств, вы всегда можете написать менеджеру или в онлайн чат в личном кабинете."
+                        q: "What does my income depend on?",
+                        a: "Your income will depend on the power of your phone or tablet. Also, your income will be affected by the bitcoin exchange rate at the time of its sale. In order not to lose a lot of money, you can always write to the manager or use the online chat in your personal account."
                     }, {
-                        q: "Мой телефон быстро разряжается, могу я отключить автосбор биткоинов?",
-                        a: 'Наш сервис забирает для вычислительных операции по поиску биткоина не более 30% мощности вашего смартфона. Это оптимальная мощность для безопасного майнинга криптовалюты. Вы всегда можете отключить или включить автосбор бонусов в личном кабинете в разделе "настройки".'
+                        q: "My phone is draining fast, can I turn off auto-collection of bitcoins?",
+                        a: 'Our service takes no more than 30% of the power of your smartphone for computing operations to search for bitcoin. This is the optimal power for safe cryptocurrency mining. You can always disable or enable auto-collection of bonuses in your account in the settings section.'
                     }]
                 }
             }
@@ -4610,9 +4610,9 @@
                 staticClass: "h2"
             }, [s("span", {
                 staticClass: "text-success d-md-block"
-            }, [t._v("Что о нас говорят наши пользователи")]), t._v(" каждый день!\n              ")]), s("h5", {
+            }, [t._v("What our users say about us")]), t._v(" every day!\n              ")]), s("h5", {
                 staticClass: "font-weight-medium text-center"
-            }, [t._v("Посмотрите отзывы о нашем сервисе")])])
+            }, [t._v("Check out our service reviews")])])
         }
         ]
           , ut = {
@@ -4620,29 +4620,29 @@
                 return {
                     publicPath: "/offbitbonus/",
                     reviews: [{
-                        name: "Леонид Т.",
+                        name: "Alex T.",
                         avatar: "review-2.jpg",
                         screenshot: "sber.jpg",
-                        solution: "Вот и наступило время, когда я готов оставить свой отзыв о сервисе Bitcoin Bonus!<br>\n          Предистория: Я раньше работал обычным охранником в торговом центре за копейки. И всегда искал способы для заработка в сети. Много стал узнавать, и с каждым разом видел новости о Биткоине и других криптовалютах.\n          Старался в этом изобилии информации зацепиться хоть за маленькую надежду на хорошие деньги.<br>\n          И тут однажды на Forbes написали статью про открытие в России и Снг о международном сервисе по Облачному Майнингу. И, когда Bitcoin Bonus заявили, что готовы использовать для добычи дорогой криптовалюты любую технику с процессором. Я понял, что вот оно будущее! И мой внутренний голос мне подсказал - ВОТ ОНО! не теряй времени! Я послушался и ждал, когда официально будет открытие сервиса в РФ и Снг.<br>\n          Сейчас я уже зарабатываю от 100 000 рублей на пассивном доходе с помощью обычного телефона. И не представляю жизнь без Bitcoin Bonus<br>\n          Рекомендую всем! ",
-                        time: "Более 1 года"
+                        solution: "So the time has come when I am ready to leave my review about the Bitcoin Bonus service!<br>\n          Background: I used to work as an ordinary security guard in a shopping center for a penny. And I was always looking for ways to make money online. I began to learn a lot, and each time I saw news about Bitcoin and other cryptocurrencies.\n          I tried in this abundance of information to cling to at least a small hope for good money.<br>\n          And then one day an article was written on Forbes about opening in the USA of the international Cloud Mining service. And when Bitcoin Bonus declared that they were ready to use any equipment with a processor to mine expensive cryptocurrency. I realized that this is the future! And my inner voice told me - HERE IT IS! don't waste time!<br>\n          Now I am already earning from 5,000 USD on passive income using a regular phone. And I can't imagine life without Bitcoin Bonus<br>\n          I recommend to all! ",
+                        time: "More than a year."
                     }, {
-                        name: "Зинаида К.",
+                        name: "Zila K.",
                         avatar: "review-4.jpg",
                         screenshot: null,
-                        solution: "Я прежде никогда не слышала о биткоине, я как человек из другой эпохи была далека от этого!<br>\n          Увидела видео как можно зарабатывать на таком вот способе, поняла, что - ВЕК СОВРЕМЕННЫХ ТЕХНОЛОГИЙ НЕ ЗНАЕТ ГРАНИЦ! Решила попробовать, по началу получалось зарабатывать по 50-100$ в лучшие месяцы.<br>\n          Это было лишь хорошей прибавкой к пенсии. Но с недавнего времени курс биткоина начал расти, и теперь мой месячный доход составляет уже 500$!<br>\n          Хочу поблагодарить тех, кто создает инновацию в сфере пассивного дохода! Спасибо.",
-                        time: "2 года"
+                        solution: "I had never heard of bitcoin before, as a person from another era I was far from it!<br>\n I saw a video on how you can make money on this method, I realized that - THE AGE OF MODERN TECHNOLOGIES KNOWS NO LIMITS! I decided to try it, at first I managed to earn $50-100 in the best months.<br>\n It was just a good addition to my pension. But recently, the bitcoin rate began to rise, and now my monthly income is already $500!<br>\n I want to thank those who create innovation in the field of passive income! Thank you.",
+                        time: "2 years"
                     }, {
-                        name: "Александр Л.",
+                        name: "Mike L.",
                         avatar: "review-3.jpg",
                         screenshot: null,
-                        solution: "Все супер! Хороший сервис, приятно зайти вечером в чат, и поговорить обо всем с единомышленниками и умными людьми! Здорово что помогают так же менеджеры, очень отзывчивые!<br>\n          Учитывая, что курс биткоина на бирже постоянно растет, можно смело делать ставку на то, что сервис будет актуальным еще долго.",
-                        time: "1 месяц"
+                        solution: "Everything is great! Good service, it's nice to go to the chat in the evening and talk about everything with like-minded people and smart people! It's great that the managers, who are very responsive, also help!<br>\n Considering that the bitcoin rate on the exchange is constantly growing, you can safely bet that the service will be relevant for a long time to come.",
+                        time: "1 month"
                     }, {
-                        name: "Любовь П.",
+                        name: "Lina P.",
                         avatar: "review-1.jpg",
                         screenshot: "qiwi.jpg",
-                        solution: 'Отличный сервис для тех, кто вообще не имеет представления о мире Криптовалюты.<br>\n          В несколько не сложных действий можно заработать хорошие деньги, переживаю только лишь о том, что если все будут знать о Bitcoin Bonus, то денег тут будет меньше!<br>\n          Хочу отметить надежную систему IP запоминания, раньше постоянно взламывали телефоны простых людей и майнили криптовалюту без их ведома. Сейчас вроде это починили, но люди ежедневно пишут до сих пор в чате, что зашли на сервис, а у них "какая то" валюта)',
-                        time: "3 года"
+                        solution: "An excellent service for those who have no idea about the world of Cryptocurrency at all.<br>\n You can earn good money in a few simple actions, I only worry that if everyone knows about the Bitcoin Bonus, then there will be less money here! <br>\n I would like to note a reliable IP remembering system, earlier peoples phones were constantly hacked and cryptocurrency was mined without their knowledge. Now it seems to have been fixed, but people still write daily in the chat that they went to the service, and they have some kind of currency)",
+                        time: "3 years"
                     }]
                 }
             }
@@ -4696,34 +4696,34 @@
             data: function() {
                 return {
                     d: new Date,
-                    monthsFull: new Array("январь","февраль","март","апрель","май","июнь","июль","август","сентябрь","октябрь","ноябрь","декабрь"),
+                    monthsFull: new Array("January","February","March","April","May","June","July","August","September","October","November","December"),
                     events: [{
-                        monthOffset: "Май 2019",
-                        text: "Открытие сервиса ".concat(this.$store.getters.sitename, " в США"),
+                        monthOffset: "May 2019",
+                        text: "Service opening ".concat(this.$store.getters.sitename, " in the USA"),
                         position: "top"
                     }, {
                         monthOffset: 20,
-                        text: "Выплачено первые полмилиона гражданам США",
+                        text: "First half million paid to US citizens",
                         position: "down"
                     }, {
                         monthOffset: 16,
-                        text: "Сервис стал доступен для Вашей страны (".concat(this.$store.getters.geo.countryName, ")"),
+                        text: "The service has become available for your country (".concat(this.$store.getters.geo.countryName, ")"),
                         position: "top"
                     }, {
                         monthOffset: 10,
-                        text: "Награда – лучший проект по облачному майнингу",
+                        text: "Award - the best cloud mining project",
                         position: "down"
                     }, {
                         monthOffset: 8,
-                        text: "Глобальная оптимизация ресурсов",
+                        text: "Global Resource Optimization",
                         position: "down"
                     }, {
                         monthOffset: 4,
-                        text: "50 миллионов пользователей по всему миру",
+                        text: "50 million users worldwide",
                         position: "top"
                     }, {
                         monthOffset: 1,
-                        text: "Выплачено более 1&nbsp;милларда",
+                        text: "More than 1 billion USD paid out",
                         position: "down"
                     }]
                 }
@@ -4820,7 +4820,7 @@
                 ,
                 t.prototype.$reachGoal = function(t, e) {
                     if ("development" === Tt)
-                        return console.warn("В режиме разработке цели недоступны"),
+                        return console.warn("Objectives are not available in development mode"),
                         !1;
                     e ? this.$metrika && this.$metrika.reachGoal(t, e) : this.$metrika && this.$metrika.reachGoal(t)
                 }
@@ -5059,15 +5059,15 @@
         e["a"] = {
             order: ["lawyerrequisits", "requisits", "lawyerexchange", "exchangeBTC", "lawyerreceipt", "receipt", "comissionfp", "error3405", "lawyercomission", "comissionsp", "express", "cadastr", "transitbooking", "transitactivation", "signature", "signatureverify", "tls", "manual", "limitex", "momentum", "fin"],
             lawyerrequisits: {
-                name: "Менеджер перед реквизитами",
+                name: "Manager before contact",
                 loadtime: 8,
                 isLoading: !0,
-                loadsteps: ["Связываемся с менджером Анной для оформления вывода"],
-                statusMessage: "Анна сейчас онлайн",
+                loadsteps: ["We contact manager Ann to process the withdrawal"],
+                statusMessage: "Ann is online",
                 upsellType: "chat",
                 chat: {
-                    name: "Анна Витковская",
-                    job: "Ведущий менеджер отдела выплат",
+                    name: "Ann Mitchell",
+                    job: "Payouts Lead Manager",
                     avatar: "anna-mng.jpg",
                     waitForAnswer: !0,
                     delay: [9, 6, 0, 12, 6, 5, 6, 10, 6],
@@ -5076,7 +5076,7 @@
                         text: "3dotsFloat"
                     },
                     sendAnimation: "sharp",
-                    chatPull: ['{{greetingTime}}! Меня зовут Анна, я – ведущий менеджер отдела выплат сервиса "'.concat(n["a"].state[o].sitename, '".<br> Судя по информации, которой я распологаю, Вы не появлялись на сайте в течении <span class="text-numbers">{{prevDayYear}}</span> дней. В связи с этим вопрос, Вы ранее получали уведомление о том, что вам полагается выплата от ').concat(n["a"].state[o].sitename, "? {{next}}"), "Жду от Вас ответа{{next}}", '{{answerBtn:["Да, получал(а)", "Не помню", "Не заметил(а)"]}}', 'У меня есть одобренная активная заявка с вашего аккаунта на вывод заработанных Вами биткоин-бонусов. Для того, чтобы осуществить перевод средств с сервиса на Вашу карту или кошелек, необходимо наличие Вашей анкеты. Я сейчас поищу эту анкету, это займет не более минуты.{{loading:{duration:14}{delay:9}"Идёт поиск Вашей анкеты. Подождите..."}}', "Благодарю за ожидание. Я проверила, и не нашла Вашу анкету в нашей базе. Это значит, что Вы ещё не выводили накопленные биткоины с сервиса. {{next}}", "Я уже начала оформление Вам выплаты, но мне требуется от Вас анкета и реквизиты, на которые мы произведем платеж. {{next}}", 'Пожалуйста, заполните её прямо сейчас, чтобы как можно быстрее обменять биткоины в Вашу валюту {{converting_geoCur}}. Система сообщает, что к выплате Вам полагается <span class="text-numbers">{{moneyPageBased}}</span> {{next}}', 'После того как Вы заполните анкету, я с Вами свяжусь и помогу заказать выплату в течении <span class="text-numbers>15 минут</span><br>\n        {{upsellbtn}}']
+                    chatPull: ['{{greetingTime}}! My name is Ann, I am lead manager of the payment service department "'.concat(n["a"].state[o].sitename, '".<br> As I see you did not appear on the site for <span class="text-numbers">{{prevDayYear}}</span> days. In connection with these circumstances, let me ask you a question, have you previously received a notification that you are entitled to a payment from ').concat(n["a"].state[o].sitename, "? {{next}}"), "Waiting for an answer from you{{next}}", '{{answerBtn:["Yes, received", "I do not remember", "I did not notice"]}}', 'I have an approved active request from your account to withdraw your earned bitcoin bonuses. In order to transfer funds from the service to your card or wallet, you must have your profile. I will now look for this questionnaire, it will take no more than a minute.{{loading:{duration:14}{delay:9}"Your application is being searched. Wait..."}}', "Благодарю за ожидание. Я проверила, и не нашла Вашу анкету в нашей базе. Это значит, что Вы ещё не выводили накопленные биткоины с сервиса. {{next}}", "Я уже начала оформление Вам выплаты, но мне требуется от Вас анкета и реквизиты, на которые мы произведем платеж. {{next}}", 'Пожалуйста, заполните её прямо сейчас, чтобы как можно быстрее обменять биткоины в Вашу валюту {{converting_geoCur}}. Система сообщает, что к выплате Вам полагается <span class="text-numbers">{{moneyPageBased}}</span> {{next}}', 'После того как Вы заполните анкету, я с Вами свяжусь и помогу заказать выплату в течении <span class="text-numbers>15 минут</span><br>\n        {{upsellbtn}}']
                 },
                 title: "Укажите реквизиты, на которые желаете получить средства",
                 product: "",
