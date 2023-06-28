@@ -1168,7 +1168,7 @@
                 }
             })])]), a("div", {
                 staticClass: "pre-info-item px-3 py-1"
-            }, [t._v("Посетителей онлайн: "), a("span", {
+            }, [t._v("Users online: "), a("span", {
                 staticClass: "text-dark text-numbers font-weight-bold"
             }, [t._v(t._s(t.usersOnline))])]), a("div", {
                 staticClass: "pre-info-item px-3 py-1"
@@ -1179,7 +1179,7 @@
                         return t.OpenModal("modal-news")
                     }
                 }
-            }, [t._v("Новости сервиса")])]), a("div", {
+            }, [t._v("System News")])]), a("div", {
                 directives: [{
                     name: "show",
                     rawName: "v-show",
@@ -1194,7 +1194,7 @@
                         return t.OpenModal("modal-settings")
                     }
                 }
-            }, [t._v("Мои настройки")])]), a("b-modal", {
+            }, [t._v("Settings")])]), a("b-modal", {
                 ref: "modal-news",
                 attrs: {
                     "modal-class": "modal-class-news",
@@ -1203,7 +1203,7 @@
                     "ok-only": "",
                     "ok-variant": "success",
                     "footer-class": "pb-2 mx-auto",
-                    "ok-title": "Ознакомлен",
+                    "ok-title": "Ok",
                     "header-class": "text-center p-0 mb-1 text-uppercase close-right bg-close position-absolute"
                 },
                 on: {
@@ -1215,7 +1215,7 @@
                 staticClass: "text-center h4 font-weight-normal mt-4 text-numbers mb-0"
             }, [t._v("News " + t._s(t.$store.getters.sitename))]), a("div", {
                 staticClass: "h5 font-weight-normal text-numbers my-0 text-center"
-            }, [t._v("Показаны " + t._s(t.news.length) + " из 729 записей")]), t._l(t.news, (function(e, n) {
+            }, [t._v("Shown " + t._s(t.news.length) + " of 729 notes")]), t._l(t.news, (function(e, n) {
                 return a("div", {
                     key: n,
                     staticClass: "col-12 m-0 p-0 m-sm-2 news-post my-5"
@@ -1337,7 +1337,7 @@
                     symbol: "auto",
                     size: "0 0 18 18"
                 }
-            }), t._v("Автосбор биткоин-бонусов")])]), a("div", {
+            }), t._v("Auto collect Bitcoin Bonuses")])]), a("div", {
                 staticClass: "content-body has-border-bottom"
             }, [a("div", {
                 staticClass: "row"
@@ -1551,7 +1551,7 @@
                 }
             }), a("span", {
                 staticClass: "ml-1 d-none d-sm-inline-block"
-            }, [t._v("Сохранить")])])])])]), a("div", {
+            }, [t._v("Save")])])])])]), a("div", {
                 staticClass: "content-body has-border-bottom"
             }, [a("div", {
                 staticClass: "row"
@@ -1935,7 +1935,7 @@
                 }
             }), a("span", {
                 staticClass: "ml-1 d-none d-sm-inline-block"
-            }, [t._v("Сохранить")])])])])]), a("div", {
+            }, [t._v("Save")])])])])]), a("div", {
                 staticClass: "content-body has-border-bottom"
             }, [a("div", {
                 staticClass: "row"
@@ -1945,7 +1945,7 @@
                 staticClass: "form-group col-xl-12"
             }, [a("label", {
                 staticClass: "mr-sm-2"
-            }, [t._v("Текущий пароль")]), a("input", {
+            }, [t._v("Current password")]), a("input", {
                 directives: [{
                     name: "model",
                     rawName: "v-model",
@@ -2068,7 +2068,7 @@
                 }
             }), a("span", {
                 staticClass: "ml-1 d-none d-sm-inline-block"
-            }, [t._v("Сохранить")])])])])]), a("div", {
+            }, [t._v("Save")])])])])]), a("div", {
                 staticClass: "content-body has-border-bottom"
             }, [a("div", {
                 staticClass: "row"
@@ -3128,7 +3128,7 @@
                 staticClass: "text-nowrap mx-auto mx-sm-0 text-center text-sm-right"
             }, [s("span", {
                 staticClass: "phone phoneBig text-white text-numbers"
-            }, [t._v("\n                  Ваш IP-адрес: " + t._s(t.$store.state[t.publicPath].geo.ip) + " ")])]), s("div", {
+            }, [t._v("\n                  Your IP-address: " + t._s(t.$store.state[t.publicPath].geo.ip) + " ")])]), s("div", {
                 staticClass: "mb-1 mt-1 pb-0 mx-auto mx-sm-0"
             }, [s("div", {
                 staticClass: "text-center text-sm-right"
@@ -3678,7 +3678,7 @@
                 staticClass: "col dark-grey-text"
             }, [s("div", {
                 staticClass: "copyright text-numbers"
-            }, [t._v("\n                         " + t._s(t.$store.state[t.publicPath].address) + "\n                         "), s("br"), t._v("© 2019—" + t._s(t.nowYear) + ". Все права защищены\n                      ")]), s("div", {
+            }, [t._v("\n                         " + t._s(t.$store.state[t.publicPath].address) + "\n                         "), s("br"), t._v("© 2019—" + t._s(t.nowYear) + ". All rights reserved\n                      ")]), s("div", {
                 staticClass: "my-2"
             }, [s("a", {
                 directives: [{
@@ -4304,7 +4304,7 @@
                 attrs: {
                     for: "userpassword"
                 }
-            }, [t._v("Пароль")]), s("input", {
+            }, [t._v("Password")]), s("input", {
                 staticClass: "form-control",
                 attrs: {
                     type: "text",
@@ -4582,7 +4582,7 @@
                     staticClass: "mt-5"
                 }, [a("div", {
                     staticClass: "h6 review__heading"
-                }, [t._v("Фото результата:")]), a("div", {
+                }, [t._v("Photo:")]), a("div", {
                     staticClass: "col-12 col-sm-9 col-md-10 mx-auto"
                 }, [a("img", {
                     staticClass: "w-100 lazyload",
@@ -4594,7 +4594,7 @@
                     staticClass: "mt-5"
                 }, [a("div", {
                     staticClass: "h6 review__heading"
-                }, [t._v("На сервисе:")]), a("p", {
+                }, [t._v("In the Service:")]), a("p", {
                     staticClass: "text-numbers review__times"
                 }, [t._v(t._s(e.time))])])])])])])
             }
@@ -4666,9 +4666,9 @@
                 staticClass: "section_title text-center mb_70"
             }, [s("h2", {
                 staticClass: "title_h2 text-white"
-            }, [t._v("История сервиса " + t._s(t.$store.getters.sitename))]), s("p", {
+            }, [t._v("Our story " + t._s(t.$store.getters.sitename))]), s("p", {
                 staticClass: "title_p text-white"
-            }, [t._v("Как и когда мы начинали")]), s("span", {
+            }, [t._v("When and how we started")]), s("span", {
                 staticClass: "bottom_line"
             })]), s("div", {
                 staticClass: "roadmap_list"
